@@ -1,14 +1,12 @@
-package com.jenkins.demo;
+package com.jenkins.java;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class JavaApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World 123");
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(JavaApplication.class, args);
 	}
-	
 }
