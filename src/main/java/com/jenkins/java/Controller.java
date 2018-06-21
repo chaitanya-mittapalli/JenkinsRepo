@@ -12,4 +12,9 @@ public class Controller {
 	public String welcome() {
 		return "Welcome";
 	}
+	
+	@GetMapping(value="/hello")
+	public String hello() {
+		return "Hello";
+	}
 }
